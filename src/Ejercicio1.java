@@ -1,19 +1,11 @@
-# Practica: Dinamicas Lineales en Java
+import java.util.Stack;
 
-## Datos del Estudiante
-- *Nombre:* Nicolás Aguilarrrrrr
-- *Curso:* Grupo 1
-- *Fecha:* 08/06/02026
-
----
-
-
-*Fecha:* 08/06/2026
-
-*Descripción:* 
-
-Ejercicio1: Invertir un string utilizando una pila
-
+public class Ejercicio1 {
+    //METODO QUE DEVUELVE UNA CADENA DE 
+    //TEXTO INVERTIDA
+    //TEXTO -> COMPUTACION
+    //RETURN ->NOICATUPMOC
+    //USANDO SOLO PILAS
     public String invertString(String texto) {
 
         Stack<Character> pila = new Stack<>();
@@ -33,4 +25,4 @@ Ejercicio1: Invertir un string utilizando una pila
        } 
        return invertido;
     }
-
+}
