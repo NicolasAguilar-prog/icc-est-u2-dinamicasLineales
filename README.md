@@ -34,7 +34,9 @@ Ejercicio1: Invertir un string utilizando una pila
        return invertido;
     }
 
+*Fecha:* 10/06/2026
 
+*Descripción:*
 Ejercicio2: Comprobar si una palabara es palíndroma:
 
     public class Ejercicio2 {
@@ -56,3 +58,5 @@ Ejercicio2: Comprobar si una palabara es palíndroma:
         }
     }
 
+# *Salida Consola*:
+ ![alt text](src/img/consola.png)
