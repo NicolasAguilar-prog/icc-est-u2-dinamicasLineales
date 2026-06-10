@@ -6,16 +6,29 @@ import java.util.Stack;
 
 public class App {
     public static void main(String[] args) throws Exception {
+
         runLinkedList();
         runQueue();
         runStack();
+        //EJERCICIO 1: INVERTIR UNA CADENA DE TEXTO USANDO PILAS
         Ejercicio1 ejercicio1 = new Ejercicio1();
         String texto = "Computacion";
         String invertido = ejercicio1.invertString(texto);
+
         System.out.println("Texto original: " + texto);
         System.out.println("Texto invertido: " + invertido);
-    }
 
+
+        //EJERCICIO 2: DETERMINAR SI UNA PALABRA ES UN PALINDROMO
+        Ejercicio2 ejercicio2 = new Ejercicio2();
+
+        String palabra1 = "Radar";
+        String palabra2 = "computacion";
+
+        System.out.println("¿" + palabra1 + " es palíndromo? "+ ejercicio2.esPalindromo(palabra1.toLowerCase()));
+
+        System.out.println("¿" + palabra2 + " es palíndromo? "+ ejercicio2.esPalindromo(palabra2.toLowerCase()));
+    }
 
 
 
@@ -87,5 +100,8 @@ public class App {
         System.out.println(nombres.size());
 
     }
+    
+
+
     
 }
